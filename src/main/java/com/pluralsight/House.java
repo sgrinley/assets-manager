@@ -22,7 +22,6 @@ public class House extends Asset {
     public String getAddress() {
         return address;
     }
-
     public int getCondition() {
         return condition;
     }
@@ -35,6 +34,22 @@ public class House extends Asset {
         return lotSize;
     }
 
+    //    Generate Setters
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public void setCondition(int condition) {
+        this.condition = condition;
+    }
+
+    public void setSquareFoot(int squareFoot) {
+        this.squareFoot = squareFoot;
+    }
+
+    public void setLotSize(int lotSize) {
+        this.lotSize = lotSize;
+    }
 
 
 }
