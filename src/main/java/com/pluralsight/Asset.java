@@ -8,7 +8,6 @@ public class Asset {
     private double originalCost;
 
 
-
     //    Generate Constructor
     public Asset(String description, String dateAcquired, double originalCost) {
         this.description = description;
