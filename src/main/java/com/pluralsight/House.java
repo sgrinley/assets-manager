@@ -18,5 +18,23 @@ public class House extends Asset {
         this.lotSize = lotSize;
     }
 
+    //    Generate Getters
+    public String getAddress() {
+        return address;
+    }
+
+    public int getCondition() {
+        return condition;
+    }
+
+    public int getSquareFoot() {
+        return squareFoot;
+    }
+
+    public int getLotSize() {
+        return lotSize;
+    }
+
+
 
 }
