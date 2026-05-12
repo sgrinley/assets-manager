@@ -8,11 +8,25 @@ public class Asset {
     private double originalCost;
 
 
-//    Generate Constructor
+
+    //    Generate Constructor
+
     public Asset(String description, String dateAcquired, double originalCost) {
         this.description = description;
         this.dateAcquired = dateAcquired;
         this.originalCost = originalCost;
     }
 
+    //    Generate Getters
+    public String getDescription() {
+        return description;
+    }
+
+    public String getDateAcquired() {
+        return dateAcquired;
+    }
+
+    public double getOriginalCost() {
+        return originalCost;
+    }
 }
