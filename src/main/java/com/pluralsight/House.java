@@ -51,5 +51,16 @@ public class House extends Asset {
         this.lotSize = lotSize;
     }
 
+    @Override
+    public double getValue() {
+        double pricePerSquareFoot = switch (condition) {
+            case 1 -> 180;
+            case 2 -> 130;
+            case 3 -> 90;
+            case 4 -> 80;
+            default -> throw new RuntimeException("Invalid condition specified");
+        };
+        return (squareFoot * pricePerSquareFoot) + (lotSize * 0.25);
+    }
 
 }
