@@ -30,12 +30,11 @@ public class Vehicle extends Asset {
     public void setMakeModel(String makeModel) {
         this.makeModel = makeModel;
     }
-
     public void setYear(int year) {
         this.year = year;
     }
-
     public void setOdometer(int odometer) {
         this.odometer = odometer;
     }
+
 }
